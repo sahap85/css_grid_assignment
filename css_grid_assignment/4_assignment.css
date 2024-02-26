@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1px;
+  float: left;
+}
+.box {
+  border: 1px solid black;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.box:nth-child(odd) {
+  background-color: black;
+  color: aliceblue;
+}
+
+.box:nth-child(even) {
+  background-color: gray;
+}
+.box3 {
+  order: -10;
+}
+
+.box2 {
+  order: 1;
+}
+.box4 {
+  order: -9;
+}
+.box5 {
+  order: -8;
+}
+.box6 {
+  order: -7;
+}
+.box7 {
+  order: -6;
+}
+.box8 {
+  order: -4;
+}
